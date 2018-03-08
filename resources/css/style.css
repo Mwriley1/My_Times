@@ -4,7 +4,7 @@
   border: 1px solid black;
 }
 
-header, nav, .logo, main, .column {
+header, nav, .logo, main, .column, .caption {
   display: flex;
 }
 
@@ -75,8 +75,29 @@ h2 {
 
 p {
   padding: 10px 0;
+  font: 17px Georgia;
 }
 
 .caption {
   padding: 0;
+  font: bold 30px Georgia;
+  color: white;
+  height: 300px;
+}
+
+.main {
+  background-image:url(../images/img-story-main.png);
+  font-size: 40px;
+}
+
+.story2 {
+  background-image:url(../images/img-story-2.png);
+}
+
+.story3 {
+  background-image:url(../images/img-story-3.png);
+}
+
+.story1 {
+  background-image:url(../images/img-story-1.png);
 }
