@@ -37,6 +37,10 @@ ul {
 li {
   list-style-type: none;
   padding: 10px;
+  margin: 0 10px;
+}
+
+.small li {
   background: WhiteSmoke;
   border-bottom: 1px solid black;
   font-weight: normal;
@@ -58,10 +62,6 @@ main {
 
 }
 
-.column {
-
-}
-
 .column.large
 {
   width: 630px;
@@ -77,6 +77,7 @@ main {
 .column.small {
   width: 240px;
   flex-direction: column;
+  align-items: center;
 }
 
 h2 {
@@ -90,6 +91,7 @@ h2 {
 
 .main-story h2 {
   font-size: 40px;
+  padding: 20px;
 }
 
 .small h2 {
@@ -114,6 +116,8 @@ p {
   color: white;
   height: 300px;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .story2, .story3 {
@@ -122,7 +126,7 @@ p {
 }
 
 .story2 .caption, .story3 .caption {
-  margin: 60px 0;
+  margin: 40px 0;
 }
 
 .story2 .caption {
@@ -135,4 +139,26 @@ p {
 
 .story1 {
   background-image:url(../images/img-story-1.png);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquaMarine;
+  margin: auto;
+  padding: 100px 0;
+  flex-direction: column;
+}
+
+footer ul li, footer p {
+  font-size: 12px;
+  font-family: Verdana;
+}
+
+.footer-title {
+  font-family: Georgia;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
 }
